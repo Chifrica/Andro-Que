@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Andro Que</string>
+    <string name="start">Get Started</string>
+    <string name="andro_que">Andro Que</string>
+    <string name="submit">Submit</string>
+    <string name="android_image">Android Image</string>
+    <string name="try_again">try_again</string>
+    <string name="retry_game">Retry Game</string>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <string name="next_question">Next Question</string>
+    <string name="next_match">Next_Match</string>
+    <string name="about_text">Android Trivia will help remind you of important concepts you have learned and will learn in Android development.\n\nConsider modifying the questions and graphics to make this game your own!</string>
+    <string name="rules_text">Select the answer from the options given. Each time you get an answer correct, you advance to the next question.\n\nIf you get the answer wrong, your game ends! You can return to the title screen using up or back from within the game screen, and this will also end your game.</string>
+    <string name="rules">Rules</string>
+    <string name="about">About</string>
+    <string name="trivia_hint">Trivia Hint</string>
+    <string name="title_android_trivia_question">Android Trivia (%1$d/%2$d)</string>
+    <string name="title_about_trivia">About Trivia</string>
+    <string name="title_trivia_rules">Trivia Rules</string>
+    <string name="share_success_text">I mastered #UdacityAndroidTrivia with %1$d/%2$d correct questions!</string>
+    <string name="share">Share</string>
+    <string name="sharing_not_available">Sharing Not Available</string>
+    <string name="aboutimage">AboutImage</string>
+    <string name="welcome_home">Welcome to Andro Que, where Android Developers/Engineers answers question that will enable them to retain what they have studied so far. \n\nIt also helps those that are still starting to become Android App Developers.</string>
+    <string name="start_game">Start Game</string>
+    <string name="welcome_to_andro_que">Welcome to Andro Que</string>
+</resources>
