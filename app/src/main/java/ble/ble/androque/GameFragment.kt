@@ -110,8 +110,24 @@ class GameFragment : Fragment() {
                     answers = listOf("GIT", "CREATE", "DELETE", "UPDATE")),
             Question(text = "Mark a layout for Data Binding?",
                     answers = listOf("<layout>", "<binding>", "<data-binding>", "<dbinding>")),
-    Question(text = "Span in grid layout manager can be describe as ....?",
-                answers = listOf("columns for vertical orientation", "rows for vertical orientation", "columns for horizontal orientation", "rows for horizontal orientaion"))
+            Question(text = "Span in grid layout manager can be describe as ....?",
+                        answers = listOf("columns for vertical orientation", "rows for vertical orientation", "columns for horizontal orientation", "rows for horizontal orientaion")),
+
+        //WorkManager
+            Question(text = "Which os the following is true about WorkManager",
+                    answers = listOf("WorkManger is part of Android Jetpack and requires a Gradle dependency to use.",
+                    "WorkManger does not necessarily guarantee that a task will be executed.", "WorkRequest is the name of the class responsible for scheduling and renning tasks.",
+                    "Tasks are typically chained, but not run in parallel.")),
+            Question(text = "Which of the following would not require WorkManager?",
+                answers = listOf("Performing a GET request to a web service", "Long running task such as downloading large aounts of data", "Scheduling a task to repeat after a set interval",
+                    "Doing something while the app is in the background.")),
+            Question(text = "A Worker represents a task to be schedule by a WorkManager while a WorkRequest contains the actual code to be excuted.",
+                answers = listOf("True", "False")),
+            Question(text = "Making execution dependent on device state such as storage space and battery life are examples of ?",
+                answers = listOf("constraints", "chaining", "best practices", "canceling tasks")),
+            Question(text = "In a chain, the output os the last WorkRequest becomes the input for the next WorkRequest.",
+                answers = listOf("True", "False")),
+
     )
 
     lateinit var currentQuestion: Question
